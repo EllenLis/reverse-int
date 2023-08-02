@@ -1,5 +1,6 @@
 module.exports = function reverse (n) {
   let result = 0;
+  n = Math.abs(n);
 
   while (n !== 0) {
     let restNum = n % 10;
